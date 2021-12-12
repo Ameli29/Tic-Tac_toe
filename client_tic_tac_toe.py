@@ -22,8 +22,8 @@ def disp_msg(msg):
 
 
 # Параметры и функции работы с сетью
-server_address = ('localhost', 5403)
-# server_address = ('192.168.0.101', 5401)
+#server_address = ('localhost', 5403)
+server_address = ('25.36.231.168', 5403)
 mode = 'disconnect'                 # режим работы клиента
 main_tau = 20                       # время цикла главной программы в мс
 lst_in = []                         # очередь для принятых сообщений
